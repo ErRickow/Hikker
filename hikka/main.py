@@ -641,7 +641,7 @@ class Hikka:
                         seconds, minutes, hours = (
                             f"{seconds} detik(-s)",
                             f"{minutes} menit(-s) " if minutes else "",
-                            f"{hours} hour(-s) " if hours else "",
+                            f"{hours} jam(-s) " if hours else "",
                         )
                         print(
                             "\033[0;91mYou got FloodWait error! Please wait"
