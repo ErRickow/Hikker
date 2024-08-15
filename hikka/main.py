@@ -572,7 +572,7 @@ class Hikka:
                 input(
                     "\033[0;96mGunakan QR code? [y/N]: \033[0m"
                     if IS_TERMUX or self.arguments.tty
-                    else "Use QR code? [y/N]: "
+                    else "Gunakan QR code? [y/N]: "
                 ).lower()
                 != "y"
             ):
