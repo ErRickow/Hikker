@@ -79,7 +79,7 @@ else:
 
         from . import main
     except ImportError as e:
-        print(f"{str(e)}\n🔄 Attempting dependencies installation... Just wait ⏱")
+        print(f"{str(e)}\n🔄 Menginstall dependencies ... Sabar Dulu⏱")
         deps()
         restart()
 
