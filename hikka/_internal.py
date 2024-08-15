@@ -48,7 +48,7 @@ def restart():
 
     logging.getLogger().setLevel(logging.CRITICAL)
 
-    print("🔄 Restarting...")
+    print("🔄 Merestart...")
 
     if "LAVHOST" in os.environ:
         os.system("lavhost restart")
