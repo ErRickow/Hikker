@@ -172,7 +172,7 @@ class RemoteStorage:
                 headers={
                     "User-Agent": "Er Userbot",
                     "X-Hikker-Version": ".".join(map(str, __version__)),
-                    "X-Hikka-Commit-SHA": utils.get_git_hash(),
+                    "X-Hikker-Commit-SHA": utils.get_git_hash(),
                     "X-Hikka-User": str(self._client.tg_id),
                 },
             )
