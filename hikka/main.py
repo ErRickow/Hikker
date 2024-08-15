@@ -797,7 +797,7 @@ class Hikka:
             )
 
             logging.debug(
-                "· Started for %s · Prefix: «%s» ·",
+                "· Dimulai Dalam %s · Prefix: «%s» ·",
                 client.tg_id,
                 client.hikka_db.get(__name__, "command_prefix", False) or ".",
             )
