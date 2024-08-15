@@ -242,7 +242,7 @@ class InlineQuery(AiogramInlineQuery):
         await self.answer(
             self._get_res(
                 "🚫 30R",
-                "You have no permissions to access this result",
+                "Lu gapunya otoritas untuk akses ini",
                 "https://img.icons8.com/external-wanicon-flat-wanicon/344/external-forbidden-new-normal-wanicon-flat-wanicon.png",
             ),
             cache_time=0,
