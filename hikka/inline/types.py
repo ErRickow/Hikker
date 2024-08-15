@@ -230,7 +230,7 @@ class InlineQuery(AiogramInlineQuery):
             self._get_res(
                 "🚫 400",
                 (
-                    "Bad request. You need to pass right arguments, follow module's"
+                    "Bad request. Lu harus masukin yang bener, follow module's"
                     " documentation"
                 ),
                 "https://img.icons8.com/color/344/swearing-male--v1.png",
