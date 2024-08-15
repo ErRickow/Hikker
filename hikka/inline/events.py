@@ -30,7 +30,7 @@ logger = logging.getLogger(__name__)
 
 class Events(InlineUnit):
     async def _message_handler(self, message: AiogramMessage):
-        """Processes incoming messages"""
+        """Memproses pesan yang akan datang"""
         if message.chat.type != "private" or message.text == "/start hikka init":
             return
 
