@@ -53,7 +53,7 @@ class Brainfuck:
         column: typing.Optional[int] = None,
     ):
         self.error = (
-            message + f" at line {line}, column {column}"
+            message + f" di line {line}, column {column}"
             if line is not None and column is not None
             else ""
         )
