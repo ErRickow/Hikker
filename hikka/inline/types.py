@@ -262,7 +262,7 @@ class InlineQuery(AiogramInlineQuery):
         await self.answer(
             self._get_res(
                 "🚫 13R",
-                "Kga perlu update Hikka before sending this request",
+                "Kga perlu update Hikker sebelum kirim request ini",
                 "https://img.icons8.com/fluency/344/approve-and-update.png",
             ),
             cache_time=0,
