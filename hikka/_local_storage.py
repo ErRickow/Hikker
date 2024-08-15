@@ -173,7 +173,7 @@ class RemoteStorage:
                     "User-Agent": "Er Userbot",
                     "X-Hikker-Version": ".".join(map(str, __version__)),
                     "X-Hikker-Commit-SHA": utils.get_git_hash(),
-                    "X-Hikka-User": str(self._client.tg_id),
+                    "X-Hikker-User": str(self._client.tg_id),
                 },
             )
             r.raise_for_status()
