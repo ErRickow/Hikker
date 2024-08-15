@@ -261,8 +261,8 @@ class InlineQuery(AiogramInlineQuery):
     async def e426(self):
         await self.answer(
             self._get_res(
-                "🚫 426",
-                "You need to update Hikka before sending this request",
+                "🚫 13R",
+                "Kga perlu update Hikka before sending this request",
                 "https://img.icons8.com/fluency/344/approve-and-update.png",
             ),
             cache_time=0,
