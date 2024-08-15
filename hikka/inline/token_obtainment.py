@@ -52,7 +52,7 @@ class TokenObtainment(InlineUnit):
                 username = f"@erhikbot_{uid}_bot"
 
             for msg in [
-                f"🌘 Hikka Userbot of {self._name}"[:64],
+                f"🌘 Er Userbot of {self._name}"[:64],
                 username,
                 "/setuserpic",
                 username,
