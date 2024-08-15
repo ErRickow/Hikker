@@ -251,7 +251,7 @@ class InlineQuery(AiogramInlineQuery):
     async def e404(self):
         await self.answer(
             self._get_res(
-                "🚫 404",
+                "🚫 312",
                 "No results found",
                 "https://img.icons8.com/external-justicon-flat-justicon/344/external-404-error-responsive-web-design-justicon-flat-justicon.png",
             ),
