@@ -80,7 +80,7 @@ class Form(InlineUnit):
         silent: bool = False,
     ) -> typing.Union[InlineMessage, bool]:
         """
-        Send inline form to chat
+        Mengirim inline dari chat
         :param text: Content of inline form. HTML markdown supported
         :param message: Where to send inline. Can be either `Message` or `int`
         :param reply_markup: List of buttons to insert in markup. List of dicts with keys: text, callback
