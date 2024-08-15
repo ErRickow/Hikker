@@ -170,10 +170,10 @@ class RemoteStorage:
                 url,
                 auth=(tuple(auth.split(":", 1)) if auth else None),
                 headers={
-                    "User-Agent": "Er Userbot",
-                    "X-Hikker-Version": ".".join(map(str, __version__)),
-                    "X-Hikker-Commit-SHA": utils.get_git_hash(),
-                    "X-Hikker-User": str(self._client.tg_id),
+                    "User-Agent": "Hikka Userbot",
+                    "X-Hikka-Version": ".".join(map(str, __version__)),
+                    "X-Hikka-Commit-SHA": utils.get_git_hash(),
+                    "X-Hikka-User": str(self._client.tg_id),
                 },
             )
             r.raise_for_status()
