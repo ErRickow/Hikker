@@ -68,7 +68,7 @@ else:
             if tuple(map(int, hikkapyro.__version__.split("."))) < (2, 0, 103):
                 raise ImportError
         except ImportError:
-            print("🔄 Installing dependencies...")
+            print("🔄 MengInstall dependencies...")
             deps()
             restart()
 
