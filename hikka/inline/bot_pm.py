@@ -56,9 +56,9 @@ class BotPM(InlineUnit):
 
     def get_fsm_state(self, user: typing.Union[str, int]) -> typing.Union[bool, str]:
         """
-        Get FSM state for user
+        Dapatkan lokasi FSM untuk pengguna
         :param user: user id
-        :return: FSM state or False if user has no FSM state
+        :return: lokasi FSM atau False jika pengguna tidak memakai lokasi FSM
         :rtype: typing.Union[bool, str]
         """
         if not isinstance(user, (str, int)):
