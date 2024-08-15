@@ -271,8 +271,8 @@ class InlineQuery(AiogramInlineQuery):
     async def e500(self):
         await self.answer(
             self._get_res(
-                "🚫 500",
-                "Internal userbot error while processing request. More info in logs",
+                "🚫 33R",
+                "Userbot Eror ketika memproses request. Info logs",
                 "https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/344/external-error-internet-security-vitaliy-gorbachev-flat-vitaly-gorbachev.png",
             ),
             cache_time=0,
