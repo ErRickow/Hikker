@@ -639,8 +639,8 @@ class Hikka:
                             e.seconds // 3600,
                         )
                         seconds, minutes, hours = (
-                            f"{seconds} second(-s)",
-                            f"{minutes} minute(-s) " if minutes else "",
+                            f"{seconds} detik(-s)",
+                            f"{minutes} menit(-s) " if minutes else "",
                             f"{hours} hour(-s) " if hours else "",
                         )
                         print(
