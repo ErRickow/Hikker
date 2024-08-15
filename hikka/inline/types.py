@@ -252,7 +252,7 @@ class InlineQuery(AiogramInlineQuery):
         await self.answer(
             self._get_res(
                 "🚫 312",
-                "No results found",
+                "Tidak ada result",
                 "https://img.icons8.com/external-justicon-flat-justicon/344/external-404-error-responsive-web-design-justicon-flat-justicon.png",
             ),
             cache_time=0,
