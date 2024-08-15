@@ -7,10 +7,10 @@
 
 # Do not delete this file, it will cause errors.
 
-__author__ = "Dan Gazizullin"
-__contact__ = "me@hikariatama.ru"
-__copyright__ = "Copyright 2022, Dan Gazizullin"
+__author__ = "Er Rickow"
+__contact__ = "ryppain@gmail.com"
+__copyright__ = "Copyright 2024, Er Rewrite"
 __credits__ = ["LonamiWebs", "penn5"]
 __license__ = "AGPLv3"
 __maintainer__ = "developer"
-__status__ = "Production"
+__status__ = "Production-Rewrite"
