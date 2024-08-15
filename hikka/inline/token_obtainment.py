@@ -49,7 +49,7 @@ class TokenObtainment(InlineUnit):
                     username = f"@erhikbot_{uid}_bot"
             else:
                 uid = utils.rand(6)
-                username = f"@hikka_{uid}_bot"
+                username = f"@erhikbot_{uid}_bot"
 
             for msg in [
                 f"🌘 Hikka Userbot of {self._name}"[:64],
