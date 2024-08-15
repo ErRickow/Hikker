@@ -241,7 +241,7 @@ class InlineQuery(AiogramInlineQuery):
     async def e403(self):
         await self.answer(
             self._get_res(
-                "🚫 403",
+                "🚫 30R",
                 "You have no permissions to access this result",
                 "https://img.icons8.com/external-wanicon-flat-wanicon/344/external-forbidden-new-normal-wanicon-flat-wanicon.png",
             ),
