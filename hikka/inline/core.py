@@ -103,7 +103,7 @@ class InlineManager(
         ignore_token_checks: bool = False,
     ):
         """
-        Register manager
+        Daftar Manager
         :param after_break: Loop marker
         :param ignore_token_checks: If `True`, will not check for token
         :type after_break: bool
