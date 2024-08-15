@@ -618,7 +618,7 @@ class Hikka:
                     _2fa = getpass(
                         f"\033[0;96mEnter 2FA password ({password.hint}): \033[0m"
                         if IS_TERMUX or self.arguments.tty
-                        else f"Enter 2FA password ({password.hint}): "
+                        else f"Masukkan 2FA password ({password.hint}): "
                     )
                     try:
                         await client._on_login(
